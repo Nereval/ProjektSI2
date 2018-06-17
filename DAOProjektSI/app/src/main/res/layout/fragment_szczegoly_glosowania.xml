@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wat.learning.android.si.daoprojektsi.Fragments.Main.SzczegolyGlosowaniaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/temat_glosowania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/opis_glosowania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/data_rozpoczecia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/data_zakonczenia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/glosowanie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zaglosuj" />
+
+        <Button
+            android:id="@+id/projekt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pokazProjekt" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
